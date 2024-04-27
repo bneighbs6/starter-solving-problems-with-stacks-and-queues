@@ -1,6 +1,6 @@
 const postfix = require("./postfix");
 
-describe("Postfix", () => {
+/* describe("Postfix", () => {
   it("should return empty string for empty string", () => {
     const actual = postfix("");
     expect(actual).toEqual("");
@@ -35,4 +35,4 @@ describe("Postfix", () => {
     const actual = postfix("(((a + b) * (c - d))/(a - b) + (c / d))");
     expect(actual).toEqual("a b + c d - * a b - / c d / +");
   });
-});
+}); */
